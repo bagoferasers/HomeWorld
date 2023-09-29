@@ -108,3 +108,11 @@ crashlytics-build.properties
 [Aa]ssets/VRChat/[Ss]DK/[Uu]don/
 [Aa]ssets/VRChat/[Ss]DK/[Uu]donAssets/
 [Aa]ssets/VRChat/[Ss]DK/[Uu]donStream/
+
+# Exclude shaders and materials
+[Aa]ssets/[Ss]haders/
+[Aa]ssets/[Mm]aterials/
+
+# Exclude PNG files (if not using Git LFS)
+*.png
+
