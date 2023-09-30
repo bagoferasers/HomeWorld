@@ -1,0 +1,527 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1126 &-4925185966885221473
+PackedAssets:
+  m_File: 1
+  m_ShortPath: BuildPlayer-Spawn.sharedAssets
+  m_Overhead: 77003
+  m_Contents:
+  - fileID: 1
+    classID: 150
+    packedSize: 37
+    offset: 77320
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 
+  - fileID: 2
+    classID: 142
+    packedSize: 148
+    offset: 77360
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 
+  - fileID: 3
+    classID: 21
+    packedSize: 912
+    offset: 77512
+    sourceAssetGUID: 25e518d66eeb63f4fb2847e4cec5effb
+    buildTimeAssetPath: Assets/updatedPupPackBones.fbx
+  - fileID: 4
+    classID: 21
+    packedSize: 892
+    offset: 78424
+    sourceAssetGUID: 25e518d66eeb63f4fb2847e4cec5effb
+    buildTimeAssetPath: Assets/updatedPupPackBones.fbx
+  - fileID: 5
+    classID: 21
+    packedSize: 252
+    offset: 79320
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 6
+    classID: 21
+    packedSize: 196
+    offset: 79576
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 7
+    classID: 21
+    packedSize: 932
+    offset: 79776
+    sourceAssetGUID: f6d0c673369564d24b102f3dc3af8340
+    buildTimeAssetPath: Assets/Floor materials pack/Material/Floor_7.mat
+  - fileID: 8
+    classID: 21
+    packedSize: 900
+    offset: 80712
+    sourceAssetGUID: 25e518d66eeb63f4fb2847e4cec5effb
+    buildTimeAssetPath: Assets/updatedPupPackBones.fbx
+  - fileID: 9
+    classID: 21
+    packedSize: 964
+    offset: 81616
+    sourceAssetGUID: 25e518d66eeb63f4fb2847e4cec5effb
+    buildTimeAssetPath: Assets/updatedPupPackBones.fbx
+  - fileID: 10
+    classID: 28
+    packedSize: 1398208
+    offset: 82584
+    sourceAssetGUID: b906db4819d58f44483a7a967dd9ca65
+    buildTimeAssetPath: Assets/New Terrain 1.asset
+  - fileID: 11
+    classID: 28
+    packedSize: 2796328
+    offset: 1480792
+    sourceAssetGUID: 7e35234e281d141418972228ee38415e
+    buildTimeAssetPath: Assets/TerrainSampleAssets/Textures/Terrain/Rock_BaseColor.tif
+  - fileID: 12
+    classID: 28
+    packedSize: 1398236
+    offset: 4277120
+    sourceAssetGUID: acb0fa4edb0fb47b69eae37fe457b09f
+    buildTimeAssetPath: Assets/Floor materials pack/Texture/7/NormalMap.png
+  - fileID: 13
+    classID: 28
+    packedSize: 5592540
+    offset: 5675360
+    sourceAssetGUID: d39a1b9e5d5c7b9499f579fa5c70a2a3
+    buildTimeAssetPath: Assets/TerrainSampleAssets/Textures/Terrain/Rock_Normal.tif
+  - fileID: 14
+    classID: 28
+    packedSize: 699176
+    offset: 11267904
+    sourceAssetGUID: dd1d33c4bacc3465fa434c877b59d903
+    buildTimeAssetPath: Assets/Floor materials pack/Texture/7/Texture_floor_7.png
+  - fileID: 15
+    classID: 28
+    packedSize: 699180
+    offset: 11967080
+    sourceAssetGUID: de7928785295c495f915c9d04414d2bb
+    buildTimeAssetPath: Assets/Floor materials pack/Texture/7/AmbientOcclusionMap.png
+  - fileID: 16
+    classID: 43
+    packedSize: 185093524
+    offset: 12666264
+    sourceAssetGUID: 25e518d66eeb63f4fb2847e4cec5effb
+    buildTimeAssetPath: Assets/updatedPupPackBones.fbx
+  - fileID: 17
+    classID: 48
+    packedSize: 27292
+    offset: 197759792
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 18
+    classID: 48
+    packedSize: 111928
+    offset: 197787088
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 19
+    classID: 48
+    packedSize: 298640
+    offset: 197899016
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 20
+    classID: 48
+    packedSize: 642000
+    offset: 198197656
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 21
+    classID: 48
+    packedSize: 13452
+    offset: 198839656
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 22
+    classID: 48
+    packedSize: 144
+    offset: 198853112
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 23
+    classID: 48
+    packedSize: 124524
+    offset: 198853256
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 24
+    classID: 48
+    packedSize: 164444
+    offset: 198977784
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 25
+    classID: 48
+    packedSize: 154496
+    offset: 199142232
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 26
+    classID: 48
+    packedSize: 984696
+    offset: 199296728
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 27
+    classID: 48
+    packedSize: 341888
+    offset: 200281424
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 28
+    classID: 48
+    packedSize: 1022416
+    offset: 200623312
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 29
+    classID: 48
+    packedSize: 5500
+    offset: 201645728
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 30
+    classID: 48
+    packedSize: 5700
+    offset: 201651232
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 31
+    classID: 48
+    packedSize: 7124
+    offset: 201656936
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 32
+    classID: 48
+    packedSize: 7804
+    offset: 201664064
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 33
+    classID: 48
+    packedSize: 8976
+    offset: 201671872
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 34
+    classID: 48
+    packedSize: 6176
+    offset: 201680848
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 35
+    classID: 48
+    packedSize: 5508
+    offset: 201687024
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 36
+    classID: 48
+    packedSize: 903000
+    offset: 201692536
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 37
+    classID: 48
+    packedSize: 874088
+    offset: 202595536
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 38
+    classID: 48
+    packedSize: 344572
+    offset: 203469624
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 39
+    classID: 48
+    packedSize: 14416
+    offset: 203814200
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 40
+    classID: 48
+    packedSize: 22628
+    offset: 203828616
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 41
+    classID: 48
+    packedSize: 4992
+    offset: 203851248
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 42
+    classID: 48
+    packedSize: 5476
+    offset: 203856240
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 43
+    classID: 48
+    packedSize: 11584
+    offset: 203861720
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 44
+    classID: 48
+    packedSize: 5824
+    offset: 203873304
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 45
+    classID: 115
+    packedSize: 96
+    offset: 76896
+    sourceAssetGUID: 4ecd63eff847044b68db9453ce219299
+    buildTimeAssetPath: Packages/com.vrchat.base/Runtime/VRCSDK/Plugins/VRCCore-Editor.dll
+  - fileID: 46
+    classID: 115
+    packedSize: 108
+    offset: 76992
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 47
+    classID: 115
+    packedSize: 88
+    offset: 77104
+    sourceAssetGUID: 45115577ef41a5b4ca741ed302693907
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/Udon/UdonBehaviour.cs
+  - fileID: 48
+    classID: 115
+    packedSize: 128
+    offset: 77192
+    sourceAssetGUID: bf61d954ecb803046953c666facfb904
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/Udon/ProgramSources/SerializedUdonProgramAsset.cs
+  - fileID: 49
+    classID: 1953259897
+    packedSize: 156
+    offset: 203879128
+    sourceAssetGUID: c5c97cec6d9833f41aabd4d6a29ff214
+    buildTimeAssetPath: Assets/Floor materials pack/Material/NewLayer.terrainlayer
+  - fileID: 50
+    classID: 114
+    packedSize: 34648
+    offset: 203879288
+    sourceAssetGUID: 524295c5ea18f414dac2fbf8ade471d2
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/566cc00e27d5822449529a3785eae366.asset
+  - fileID: 51
+    classID: 114
+    packedSize: 17068
+    offset: 203913936
+    sourceAssetGUID: 66f36d6efad98924683ecab1af19cd01
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/c8df303ceb45ae84f85a11591f741734.asset
+  - fileID: 52
+    classID: 156
+    packedSize: 674164
+    offset: 203931008
+    sourceAssetGUID: b906db4819d58f44483a7a967dd9ca65
+    buildTimeAssetPath: Assets/New Terrain 1.asset
+--- !u!1125 &1
+BuildReport:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LastBuild
+  m_Summary:
+    buildStartTime:
+      serializedVersion: 2
+      ticks: 638315414579277121
+    buildGUID: 00000000000000000000000000000000
+    platformName: Win64
+    platformGroupName: Standalone
+    options: 16
+    assetBundleOptions: 32
+    outputPath: C:/Users/ctrul/AppData/Local/Temp/DefaultCompany/HomeWorld/scene-standalonewindows64-spawn.vrcw
+    crc: 939312530
+    totalSize: 100890566
+    totalTimeTicks: 0
+    totalErrors: 0
+    totalWarnings: 0
+    buildType: 1
+    buildResult: 1
+  m_Files:
+  - path: E:/GitHub_HomeWorld/scene-standalonewindows64-spawn.vrcw/BuildPlayer-Spawn
+    role: Scene
+    id: 0
+    totalSize: 211196
+  - path: E:/GitHub_HomeWorld/scene-standalonewindows64-spawn.vrcw/BuildPlayer-Spawn.sharedAssets
+    role: SharedAssets
+    id: 1
+    totalSize: 204605172
+  - path: E:/GitHub_HomeWorld/scene-standalonewindows64-spawn.vrcw
+    role: AssetBundle
+    id: 2
+    totalSize: 100887797
+  - path: E:/GitHub_HomeWorld/scene-standalonewindows64-spawn.vrcw.manifest
+    role: AssetBundleTextManifest
+    id: 3
+    totalSize: 1554
+  - path: E:/GitHub_HomeWorld/HomeWorld/CAB-838ade268ee2d04bd41a0699e571bf28
+    role: ResourcesFile
+    id: 4
+    totalSize: 4304
+  - path: E:/GitHub_HomeWorld/HomeWorld
+    role: ManifestAssetBundle
+    id: 5
+    totalSize: 1052
+  - path: E:/GitHub_HomeWorld/HomeWorld.manifest
+    role: AssetBundleTextManifest
+    id: 6
+    totalSize: 163
+  m_BuildSteps:
+  - stepName: Build Asset Bundles
+    durationTicks: 674961205
+    depth: 0
+    messages: []
+  - stepName: Calculate asset bundles to be built
+    durationTicks: 36324
+    depth: 1
+    messages: []
+  - stepName: Compile scripts
+    durationTicks: 77641758
+    depth: 1
+    messages: []
+  - stepName: Build player
+    durationTicks: 533544571
+    depth: 1
+    messages: []
+  - stepName: Prepare assets for target platform
+    durationTicks: 1564909
+    depth: 2
+    messages: []
+  - stepName: Building scenes
+    durationTicks: 6243276
+    depth: 2
+    messages: []
+  - stepName: Building scene Assets/Scenes/Spawn.unity
+    durationTicks: 6222146
+    depth: 3
+    messages: []
+  - stepName: Writing asset files
+    durationTicks: 19788840
+    depth: 2
+    messages: []
+  - stepName: Packaging assets - archive:/BuildPlayer-Spawn/BuildPlayer-Spawn.sharedAssets
+    durationTicks: 19756676
+    depth: 3
+    messages: []
+  - stepName: Creating compressed player package
+    durationTicks: 484987417
+    depth: 2
+    messages: []
+  - stepName: Postprocess built player
+    durationTicks: 2473824
+    depth: 2
+    messages: []
+  m_Appendices:
+  - {fileID: 5470378191976181003}
+  - {fileID: -4925185966885221473}
+  - {fileID: 5603870890426465201}
+  - {fileID: 4296677507362934468}
+  - {fileID: 6197320814542138184}
+--- !u!641289076 &4296677507362934468
+AudioBuildInfo:
+  m_IsAudioDisabled: 0
+  m_AudioClipCount: 0
+  m_AudioMixerCount: 0
+--- !u!668709126 &5470378191976181003
+BuiltAssetBundleInfoSet:
+  bundleInfos:
+  - bundleName: scene-standalonewindows64-spawn.vrcw
+    bundleArchiveFile: 2
+    packagedFileIndices: 0000000001000000
+  - bundleName: HomeWorld
+    bundleArchiveFile: 5
+    packagedFileIndices: 04000000
+--- !u!382020655 &5603870890426465201
+PluginBuildInfo:
+  m_RuntimePlugins:
+  - Unity.Burst.Unsafe
+  - VRC.SDK3.Dynamics.PhysBone
+  - OVRPlugin
+  - YamlDotNet
+  - System.Threading.Tasks.Extensions
+  - VRC.Udon.ClientBindings
+  - openvr_api
+  - portmidi
+  - VRC.Udon.VRCWrapperModules
+  - VRCSDK3
+  - VRC.Udon.VM
+  - Serilog
+  - SDKBase-Legacy
+  - nunit.framework
+  - SemanticVersioning
+  - librsync.net
+  - VRC.Udon.Common
+  - VRC.SDK3.Dynamics.Contact
+  - Collections.Pooled
+  - System.Collections.Immutable
+  - System.Numerics.Vectors
+  - Markcreator.Polytool
+  - System.Buffers
+  - VRC.Dynamics
+  - VRC.Udon.Wrapper
+  - Serilog.Sinks.File
+  - VRC.Udon.Security
+  - clipper_library
+  - VRC.Collections
+  - VRCSDKBase
+  - System.Runtime.CompilerServices.Unsafe
+  - vrc_image_loader
+  - libvrc_image_loader
+  - Newtonsoft.Json
+  - libopenvr_api
+  - Blake2Sharp
+  - System.Memory
+  - System.Text.Encoding.CodePages
+  - VRCCore-Editor
+  - VRC.Utility
+  - AudioPluginOculusSpatializer
+  m_EditorPlugins:
+  - ICSharpCode.SharpZipLib
+  - VRCSDK3-Editor
+  - Microsoft.CodeAnalysis
+  - VRC.Udon.VRCTypeResolverModules
+  - AppleEventIntegration
+  - liblz4Plastic
+  - Unity.Plastic.Newtonsoft.Json
+  - unityplastic
+  - VRC.Udon.Compiler
+  - System.Reflection.Metadata
+  - Microsoft.CodeAnalysis.CSharp
+  - VRC.Udon.UAssembly
+  - vpm-core-lib
+  - VRC.Udon.Graph
+  - UnityEditor.VR
+  - 0Harmony
+  - VRC.SDK3.Dynamics.PhysBone.Editor
+  - VRCSDKBase-Editor
+  - VRC.SDK3.Dynamics.Contact.Editor
+  - VRC.Udon.VRCGraphModules
+  - log4netPlastic
+  - VRC.Udon.EditorBindings
+  - zlib64Plastic
+  - Unity.Plastic.Antlr3.Runtime
+  - Serilog.Sinks.Unity3D
+  - lz4x64Plastic
+--- !u!1126 &6197320814542138184
+PackedAssets:
+  m_File: 4
+  m_ShortPath: CAB-838ade268ee2d04bd41a0699e571bf28
+  m_Overhead: 4096
+  m_Contents:
+  - fileID: 1
+    classID: 142
+    packedSize: 104
+    offset: 4096
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: AssetBundle Object
+  - fileID: 2
+    classID: 290
+    packedSize: 104
+    offset: 4200
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 'Built-in AssetBundleManifest: AssetBundleManifest'
