@@ -115,4 +115,9 @@ crashlytics-build.properties
 
 # Exclude PNG files (if not using Git LFS)
 *.png
+*.asset
+*.mat 
+*.prefab
+*.fbx
+*.jpg
 
