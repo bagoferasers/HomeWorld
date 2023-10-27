@@ -114,12 +114,3 @@ crashlytics-build.properties
 # Exclude shaders and materials
 [Aa]ssets/[Ss]haders/
 [Aa]ssets/[Mm]aterials/
-
-# Exclude PNG files (if not using Git LFS)
-*.png
-*.asset
-*.mat 
-*.prefab
-*.fbx
-*.jpg
-
