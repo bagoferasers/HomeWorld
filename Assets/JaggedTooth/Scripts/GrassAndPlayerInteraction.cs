@@ -5,13 +5,13 @@ public class GrassAndPlayerInteraction : MonoBehaviour
 {
     private Vector3 originalPos;
     private Vector3 loweredPos;
-    public float loweredY = 0.15f;
-    public float duration = 1.0f;
-    public float raiseSpeed = 0.5f;
-    public float lowerSpeed = 5.0f;
+    private float loweredY = 1f;
+    private float duration = 10.0f;
+    private float raiseSpeed = 0.02f;
+    private float lowerSpeed = 10.0f;
     private bool isLowering = false;
     private float timePassed = 0.0f;
-    public float waitTime = 1.0f;
+    private float waitTime = 4.0f;
 
     private void Start( )
     {

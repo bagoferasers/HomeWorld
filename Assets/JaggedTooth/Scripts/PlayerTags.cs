@@ -4,6 +4,7 @@ using System.Collections.Generic;
 public class PlayerTags : MonoBehaviour
 {
     public LayerMask targetLayer;
+    public string tagSet = "Player";
     private GameObject[] objects;
     List< GameObject > objectsOnLayer = new List< GameObject >( );
     void Update( )
@@ -11,7 +12,7 @@ public class PlayerTags : MonoBehaviour
         objects = FindGameObjectsWithLayer( targetLayer );
         foreach ( var obj in objects )
         {
-            obj.tag = "Player";
+            obj.tag = tagSet;
         }
     }
 
