@@ -1,12 +1,16 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UdonSharp;
+using VRC.SDKBase;
+using VRC.Udon;
 public class PlayerTags : MonoBehaviour
 {
     public LayerMask targetLayer;
     public string tagSet = "Player";
     private GameObject[] objects;
     List< GameObject > objectsOnLayer = new List< GameObject >( );
+
     void Update( )
     {
         objects = FindGameObjectsWithLayer( targetLayer );

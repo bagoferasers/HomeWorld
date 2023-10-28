@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f11136daadff0b44ac2278a314682ab, type: 3}
+  m_Name: 1_libertycap Udon Graph Program Asset
+  m_EditorClassIdentifier: 
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 2aea60f364ef5d74881f411a6932ae88,
+    type: 2}
+  udonAssembly: ".data_start\r\n\r\n    .export Use\r\n    .export Text\r\n    \r\n   
+    Use: %SystemString, null\r\n    Text: %TMProTextMeshPro, null\r\n    Blank: %SystemString,
+    null\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n    .export _onPickupUseUp\r\n   
+    \r\n    _onPickupUseUp:\r\n    \r\n        PUSH, Text\r\n        PUSH, Use\r\n       
+    COPY\r\n        JUMP, 0xFFFFFFFC\r\n    \r\n    .export _onPickupUseDown\r\n   
+    \r\n    _onPickupUseDown:\r\n    \r\n        PUSH, Text\r\n        PUSH, Blank\r\n       
+    COPY\r\n        JUMP, 0xFFFFFFFC\r\n    \r\n\r\n.code_end\r\n"
+  assemblyError: 
+  graphData:
+    name: 
+    description: 
+    nodes:
+    - fullName: Event_OnPickupUseUp
+      uid: 6bd8282d-28de-4ebc-804b-a95eb37f3e95
+      position: {x: 480, y: -100}
+      nodeUIDs: []
+      flowUIDs:
+      - 2596855d-af43-491b-ba4f-354189b22de4
+      nodeValues: []
+    - fullName: Event_OnPickupUseDown
+      uid: 37c4b5b5-caf5-46c8-affc-a28d69178d91
+      position: {x: 480, y: -380}
+      nodeUIDs: []
+      flowUIDs:
+      - 7a7d1bc3-c322-4e20-8ad2-5f234b4664ef
+      nodeValues: []
+    - fullName: Variable_SystemString
+      uid: dc7004fa-2ed3-48cd-9977-ec39dede25b4
+      position: {x: 0, y: 0}
+      nodeUIDs:
+      - 
+      - 
+      - 
+      - 
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|default
+          value
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Use
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|True
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
+    - fullName: Variable_TMProTextMeshPro
+      uid: 55088ee3-76bb-4535-9100-ae0b3cc2d7eb
+      position: {x: 0, y: 0}
+      nodeUIDs:
+      - 
+      - 
+      - 
+      - 
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Text
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|True
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
+    - fullName: Get_Variable
+      uid: e6ca2520-10ea-4236-86df-fdf2e92d1aba
+      position: {x: 520, y: -240}
+      nodeUIDs:
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|55088ee3-76bb-4535-9100-ae0b3cc2d7eb
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    - fullName: Set_Variable
+      uid: 2596855d-af43-491b-ba4f-354189b22de4
+      position: {x: 860, y: -160}
+      nodeUIDs:
+      - 
+      - e6ca2520-10ea-4236-86df-fdf2e92d1aba|0
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|dc7004fa-2ed3-48cd-9977-ec39dede25b4
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
+    - fullName: Set_Variable
+      uid: 7a7d1bc3-c322-4e20-8ad2-5f234b4664ef
+      position: {x: 860, y: -380}
+      nodeUIDs:
+      - 
+      - e6ca2520-10ea-4236-86df-fdf2e92d1aba|0
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|9bb82854-f318-4eb0-a3d0-e68ee072d5f6
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
+    - fullName: Variable_SystemString
+      uid: 9bb82854-f318-4eb0-a3d0-e68ee072d5f6
+      position: {x: 0, y: 0}
+      nodeUIDs:
+      - 
+      - 
+      - 
+      - 
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Blank
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
+    updateOrder: 0
+  graphElementData: []
+  version: 1.0.0
+  showAssembly: 0

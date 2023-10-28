@@ -8,14 +8,13 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: cap_libertycap
-  m_Shader: {fileID: 4800000, guid: 5398f14cd241f2649988529db4480d1c, type: 3}
-  m_ShaderKeywords: _SHADING_ON
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: _GLOSSYREFLECTIONS_OFF _SHADING_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap:
-    RenderType: Opaque
+  stringTagMap: {}
   disabledShaderPasses:
   - ALWAYS
   m_SavedProperties:
@@ -484,9 +483,9 @@ Material:
     - _GlitchFrequency: 0
     - _GlitchIntensity: 0
     - _GlitchToggle: 0
-    - _GlossMapScale: 1
-    - _Glossiness: 0.5
-    - _GlossyReflections: 1
+    - _GlossMapScale: 0
+    - _Glossiness: 0.569
+    - _GlossyReflections: 0
     - _HDR: 0
     - _HardenNormals: 0
     - _HeightChannel: 3
@@ -537,7 +536,7 @@ Material:
     - _MatcapUseRough: 0
     - _MatcapUseRough1: 0
     - _MaxSteps: 50
-    - _Metallic: 0
+    - _Metallic: 0.257
     - _MetallicChannel: 0
     - _MetallicContrast: 1
     - _MetallicFiltering: 0
@@ -639,9 +638,9 @@ Material:
     - _Screenspace: 0
     - _ScrubPos: 1
     - _ScrubPos1: 1
-    - _ShadowConditions: 0
+    - _ShadowConditions: 1
     - _ShadowDithering: 0
-    - _ShadowMode: 0
+    - _ShadowMode: 1
     - _ShadowStr: 0.5
     - _SharpSpecStr: 1
     - _SharpSpecular: 0
@@ -758,7 +757,7 @@ Material:
     - _EmissPulseMaskScroll: {r: 0, g: 0, b: 0, a: 0}
     - _EmissScroll: {r: 0, g: 0, b: 0, a: 0}
     - _EmissScroll2: {r: 0, g: 0, b: 0, a: 0}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 0.000030637257, g: 0.000030637257, b: 0.000030637257, a: 1}
     - _EmissionColor2: {r: 0, g: 0, b: 0, a: 1}
     - _EntryPos: {r: 0, g: 1, b: 0, a: 0}
     - _FilterMaskScroll: {r: 0, g: 0, b: 0, a: 0}
