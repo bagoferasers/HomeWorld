@@ -10,29 +10,32 @@ public class PickUpLibertyCap : UdonSharpBehaviour
     
     private bool isPickedUp = false;
 
-    public void OnPickup()
+    public string nameOfMushroom = "";
+
+    public void OnPickup( )
     {
         isPickedUp = true;
-        SetInteractionText("Eat liberty cap?");
+        SetInteractionText( text: "Eat " + nameOfMushroom + "?" );
     }
 
-    public void OnDrop()
+    public void OnDrop( )
     {
         isPickedUp = false;
-        SetInteractionText("");
+        SetInteractionText( text: "" );
     }
 
-    public void OnUse()
+    public void OnUse( )
     {
-        if (isPickedUp)
+        if ( isPickedUp )
         {
-            Debug.Log("Eating Liberty Cap!");
+            Debug.Log( "Eating " + nameOfMushroom + "!" );
             eatText.enabled = false;
             isPickedUp = false;
+            Destroy( gameObject );
         }
     }
 
-    private void SetInteractionText(string text)
+    private void SetInteractionText( string text )
     {
         eatText.text = text;
         eatText.enabled = true;

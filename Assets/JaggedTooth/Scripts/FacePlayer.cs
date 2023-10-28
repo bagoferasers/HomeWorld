@@ -8,13 +8,13 @@ public class FacePlayer : UdonSharpBehaviour
 {
     public Transform playerCamera;
 
-    void Update()
+    void Update( )
     {
         // Ensure the playerCamera is set in the Inspector
-        if (playerCamera != null)
+        if ( playerCamera != null )
         {
             // Make the text always face the player's point of view
-            transform.LookAt(playerCamera);
+            transform.LookAt( playerCamera );
         }
     }
 }
