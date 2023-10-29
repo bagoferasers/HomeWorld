@@ -19,9 +19,9 @@ public class GrassAndPlayerInteraction : MonoBehaviour
         loweredPos = transform.position;
         loweredPos.y = ( transform.position.y - loweredY );
     }
-    void OnTriggerEnter( Collider other )
+    private void OnTriggerEnter( Collider other )
     {
-        if( other.CompareTag( "Player" ) && !isLowering )
+        if( other.CompareTag( "Player" ) || other.CompareTag( "PlayerLocal") )
         {
             Debug.Log( "Player entered grass object!" ); 
             isLowering = true;
@@ -30,14 +30,14 @@ public class GrassAndPlayerInteraction : MonoBehaviour
         }
     }
 
-    void OnTriggerExit( Collider other )
+    private void OnTriggerExit( Collider other )
     {
-        if( other.CompareTag( "Player" ) )
+        if( other.CompareTag( "Player" ) || other.CompareTag( "PlayerLocal") )
         {
             Debug.Log( "Player exited grass object!" );
             isLowering = false;
             StopAllCoroutines( );
-            StartCoroutine( raiseTheGrass( time: duration ) );
+            StartCoroutine( raiseTheGrass( time: duration ) );          
         }
     }
 
