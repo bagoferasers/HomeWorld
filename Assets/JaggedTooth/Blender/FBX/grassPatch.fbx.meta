@@ -3,7 +3,62 @@ guid: c772fc20f274abb4292f192ea6d28f88
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grass.002
+    second: {fileID: 2100000, guid: 2651541f109e25140b4cdaf185320341, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grass.003
+    second: {fileID: 2100000, guid: 2651541f109e25140b4cdaf185320341, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grass.004
+    second: {fileID: 2100000, guid: 2651541f109e25140b4cdaf185320341, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grass.005
+    second: {fileID: 2100000, guid: 2651541f109e25140b4cdaf185320341, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grass.006
+    second: {fileID: 2100000, guid: 2651541f109e25140b4cdaf185320341, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grass.007
+    second: {fileID: 2100000, guid: 2651541f109e25140b4cdaf185320341, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grass.008
+    second: {fileID: 2100000, guid: 2651541f109e25140b4cdaf185320341, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grass.009
+    second: {fileID: 2100000, guid: 2651541f109e25140b4cdaf185320341, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grass.010
+    second: {fileID: 2100000, guid: 2651541f109e25140b4cdaf185320341, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grass.011
+    second: {fileID: 2100000, guid: 2651541f109e25140b4cdaf185320341, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grass.012
+    second: {fileID: 2100000, guid: 2651541f109e25140b4cdaf185320341, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
