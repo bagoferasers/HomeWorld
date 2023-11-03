@@ -4,8 +4,9 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: AQUAS_Lite_Water_Backface
   m_Shader: {fileID: 4800000, guid: 6c5f1c7411ec6004fb354db7ff23d494, type: 3}
   m_ShaderKeywords: _ENABLEPROBERELFECTIONS_ON _ENABLEREALTIMEREFLECTIONS_ON _ENABLEREFLECTIONS_ON
@@ -116,7 +117,7 @@ Material:
     - _UnderwaterMode: 0
     - _UnderwaterTranspDist: 13.56
     - _UnderwaterTranspFalloff: 0.78
-    - _WaveSpeed: 0.1
+    - _WaveSpeed: 0.01
     - _ZWrite: 1
     - __dirty: 1
     m_Colors:

@@ -123,7 +123,8 @@ MonoBehaviour:
       - 9658ff17-5797-4dee-930d-749a4852375c|0
       - 
       - 
-      flowUIDs: []
+      flowUIDs:
+      - 
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: 
@@ -134,7 +135,7 @@ MonoBehaviour:
           PublicKeyToken=b77a5c561934e089|True
     - fullName: UnityEngineGameObject.__GetComponent__SystemType__UnityEngineComponent
       uid: 4c32dbcf-5d34-4155-96f8-1c79bf5b4c16
-      position: {x: 760, y: 360}
+      position: {x: 880, y: 520}
       nodeUIDs:
       - 
       - 8152a8dd-23e4-42a2-819d-35cac4d6e98e
@@ -146,13 +147,13 @@ MonoBehaviour:
         stringValue: 
     - fullName: Type_UnityEngineAnimator
       uid: 8152a8dd-23e4-42a2-819d-35cac4d6e98e
-      position: {x: 480, y: 420}
+      position: {x: 600, y: 580}
       nodeUIDs: []
       flowUIDs: []
       nodeValues: []
     - fullName: UnityEngineAnimator.__SetBool__SystemString_SystemBoolean__SystemVoid
       uid: 1421a46a-55de-4ad2-9925-fb29315ae8c5
-      position: {x: 1120, y: 340}
+      position: {x: 1240, y: 500}
       nodeUIDs:
       - 4c32dbcf-5d34-4155-96f8-1c79bf5b4c16
       - 
@@ -198,7 +199,7 @@ MonoBehaviour:
       nodeValues: []
     - fullName: Event_OnPlayerTriggerExit
       uid: f7bec374-d78c-40ca-ace8-b8ab76ad5935
-      position: {x: 460, y: 600}
+      position: {x: 680, y: 360}
       nodeUIDs: []
       flowUIDs:
       - 1421a46a-55de-4ad2-9925-fb29315ae8c5
