@@ -746,13 +746,17 @@ MonoBehaviour:
   useAssignedLayers: 0
   DynamicPrefabs:
   - {fileID: 3813582210658299205, guid: c7534d86bbef42943b5480c50826f2ac, type: 3}
+  - {fileID: 8380803605111048181, guid: 116c8905ebac2124f98db16d5b07f8ce, type: 3}
+  - {fileID: 5489145703730505545, guid: 11da3c301b1e93248a9e18c2bbf3615b, type: 3}
   DynamicMaterials:
-  - {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
   - {fileID: -9103484930961366303, guid: 08fa99fb2abeade43965adf588a6d2bc, type: 3}
   - {fileID: 6098924145076851180, guid: 08fa99fb2abeade43965adf588a6d2bc, type: 3}
   - {fileID: 2871527866300135946, guid: 08fa99fb2abeade43965adf588a6d2bc, type: 3}
   - {fileID: 5609376371823756952, guid: 08fa99fb2abeade43965adf588a6d2bc, type: 3}
+  - {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
   - {fileID: -876546973899608171, guid: 8a9496a1a9835f54ea41fc69fe3cc613, type: 3}
+  - {fileID: 2100000, guid: 6af00a911897fe743977370cbd695f23, type: 2}
+  - {fileID: -876546973899608171, guid: 7afbcd70096e6424fa10f1ee85070cc9, type: 3}
   LightMapsNear: []
   LightMapsFar: []
   LightMode: 0
