@@ -6,16 +6,16 @@ TerrainLayer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: NewLayer
-  m_DiffuseTexture: {fileID: 2800000, guid: 34429bd1432eead4281c991a7f86aec7, type: 3}
-  m_NormalMapTexture: {fileID: 2800000, guid: 90b846a0f2d470248a7f4e706a1ef73a, type: 3}
+  m_Name: crackedMud
+  m_DiffuseTexture: {fileID: 2800000, guid: 0b50f657a064adb47abca8493a12a3b6, type: 3}
+  m_NormalMapTexture: {fileID: 2800000, guid: 371147615f23f5a449a8e614726886e3, type: 3}
   m_MaskMapTexture: {fileID: 0}
   m_TileSize: {x: 2, y: 2}
   m_TileOffset: {x: 0, y: 0}
   m_Specular: {r: 0, g: 0, b: 0, a: 0}
   m_Metallic: 0
   m_Smoothness: 0
-  m_NormalScale: 1
+  m_NormalScale: 1.5
   m_DiffuseRemapMin: {x: 0, y: 0, z: 0, w: 0}
   m_DiffuseRemapMax: {x: 1, y: 1, z: 1, w: 1}
   m_MaskMapRemapMin: {x: 0, y: 0, z: 0, w: 0}
