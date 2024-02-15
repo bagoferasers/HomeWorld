@@ -649,7 +649,7 @@ Material:
     - _ScrubPos1: 1
     - _ShadowConditions: 0
     - _ShadowDithering: 0
-    - _ShadowMode: 0
+    - _ShadowMode: 1
     - _ShadowStr: 0.5
     - _SharpSpecStr: 1
     - _SharpSpecular: 0
