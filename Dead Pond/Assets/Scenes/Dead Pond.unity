@@ -675,25 +675,32 @@ MonoBehaviour:
   SpawnLocation: {fileID: 0}
   DrawDistance: 0
   useAssignedLayers: 0
-  DynamicPrefabs: []
+  DynamicPrefabs:
+  - {fileID: 8380803605111048181, guid: 116c8905ebac2124f98db16d5b07f8ce, type: 3}
+  - {fileID: 5489145703730505545, guid: 11da3c301b1e93248a9e18c2bbf3615b, type: 3}
+  - {fileID: 4469014727479693121, guid: de7b212775481574eb4630b92fffafb8, type: 3}
+  - {fileID: 3134817524656289316, guid: 61b1f4b5e1f42df45b40ca1780a5a96c, type: 3}
+  - {fileID: 4190902866321256880, guid: bf54c6b471848884f9626bb4d107ef25, type: 3}
+  - {fileID: 9132861228676117498, guid: 5118248741fda28439cb715d8ee9bba1, type: 3}
+  - {fileID: 978145575969815722, guid: cb2bc9bad43ab35439baed40b85ce53d, type: 3}
+  - {fileID: 5482499760349708867, guid: 8798fbf3c1411cd4fb0e618b918fa570, type: 3}
+  - {fileID: 4277277218680282520, guid: e38d9ff9d7efb52499b879c865c2d43c, type: 3}
   DynamicMaterials:
-  - {fileID: 2100000, guid: 5967effb3be6c68459d87790a6490cb3, type: 2}
-  - {fileID: 2100000, guid: 467e7c605a830434d95f7f853cab9726, type: 2}
+  - {fileID: 2100000, guid: f59ea535bb715ca4da8afac832fd36eb, type: 2}
+  - {fileID: 2100000, guid: 6363f60797ab0fb49b1ff852b0978304, type: 2}
+  - {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 6af00a911897fe743977370cbd695f23, type: 2}
   - {fileID: 2100000, guid: 3611af0b6bec86c44aac48f20ee4d7a6, type: 2}
+  - {fileID: 2100000, guid: 7262b60b335d2b946bbcf5962deff2bd, type: 2}
+  - {fileID: 2100000, guid: 467e7c605a830434d95f7f853cab9726, type: 2}
+  - {fileID: 2100000, guid: e238d57a0d1270f449e664e6cac2e5c8, type: 2}
+  - {fileID: 2100000, guid: 948dcaf1dac43cb40a808e53309f57a8, type: 2}
+  - {fileID: 2100000, guid: 3b417f1ccf4a2464084391eebecd0e01, type: 2}
+  - {fileID: 2100000, guid: 5967effb3be6c68459d87790a6490cb3, type: 2}
   - {fileID: 2100000, guid: f10ed5eaf7c0b534b8495feaf1efdf4d, type: 2}
   - {fileID: 2100000, guid: 5eb33bfdd3240e544ad06b1968c295c1, type: 2}
-  - {fileID: -9103484930961366303, guid: 6a4c8e570cf138f4daa54b46c5f75600, type: 3}
-  - {fileID: 6098924145076851180, guid: 6a4c8e570cf138f4daa54b46c5f75600, type: 3}
-  - {fileID: 2871527866300135946, guid: 6a4c8e570cf138f4daa54b46c5f75600, type: 3}
-  - {fileID: 5609376371823756952, guid: 6a4c8e570cf138f4daa54b46c5f75600, type: 3}
   - {fileID: 2100000, guid: 0653c17a3c126e649a2ddde2c8105ac6, type: 2}
   - {fileID: 2100000, guid: b28c2f4e7581aec4a9e56df6dcb5fbcf, type: 2}
-  - {fileID: 2100000, guid: 948dcaf1dac43cb40a808e53309f57a8, type: 2}
-  - {fileID: 2100000, guid: 6af00a911897fe743977370cbd695f23, type: 2}
-  - {fileID: 2100000, guid: 3b417f1ccf4a2464084391eebecd0e01, type: 2}
-  - {fileID: 2100000, guid: 7262b60b335d2b946bbcf5962deff2bd, type: 2}
-  - {fileID: 2100000, guid: e238d57a0d1270f449e664e6cac2e5c8, type: 2}
-  - {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
   LightMapsNear: []
   LightMapsFar: []
   LightMode: 0
@@ -1026,6 +1033,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Reference Avatar
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6a4c8e570cf138f4daa54b46c5f75600,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1062,7 +1074,7 @@ Transform:
   m_GameObject: {fileID: 1977026582}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.38268343, z: 0, w: 0.92387956}
-  m_LocalPosition: {x: 30, y: 20.949, z: 30}
+  m_LocalPosition: {x: 30, y: 20.003, z: 30}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
