@@ -574,7 +574,7 @@ Material:
     - _OutlineToggle: 0
     - _PBRWorkflow: 0
     - _PackedRoughPreview: 0
-    - _Parallax: 0.02
+    - _Parallax: 0.1
     - _ParallaxOffset: 0
     - _ParallaxSteps: 25
     - _PatternMult: 2.5

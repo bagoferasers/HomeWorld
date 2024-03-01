@@ -120,7 +120,7 @@ MonoBehaviour:
     value: 100
   lift:
     overrideState: 1
-    value: {x: 0.8036205, y: 1, z: 0.8537257, w: 0}
+    value: {x: 0.789132, y: 1, z: 0.8322697, w: 0}
   gamma:
     overrideState: 1
     value: {x: 0.0005159378, y: 0, z: 1, w: 0}
@@ -1348,10 +1348,10 @@ MonoBehaviour:
     value: 2
   aperture:
     overrideState: 0
-    value: 5.6
+    value: 6.03
   focalLength:
-    overrideState: 0
-    value: 50
+    overrideState: 1
+    value: 60
   kernelSize:
     overrideState: 1
     value: 3
@@ -1382,13 +1382,13 @@ MonoBehaviour:
     value: {x: 0.5, y: 0.5}
   intensity:
     overrideState: 1
-    value: 0.675
+    value: 0.6
   smoothness:
     overrideState: 1
-    value: 0.327
+    value: 1
   roundness:
     overrideState: 1
-    value: 0
+    value: 0.5
   rounded:
     overrideState: 0
     value: 0
